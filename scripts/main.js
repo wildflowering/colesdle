@@ -250,12 +250,12 @@ function copyStats() {
         .share({
           title: "colesdle",
           text: output,
-          url: "https://colesdle.com",
+          url: "https://wildflowering.github.io/colesdle",
         })
         .catch((error) => console.error("Share failed:", error));
     }
   } else {
-    output += `https://colesdle.com`;
+    output += `https://wildflowering.github.io/colesdle`;
     navigator.clipboard.writeText(output);
     displayToast();
   }
